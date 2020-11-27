@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Exe</title>
+    <link rel="stylesheet" href="css/style.min.css" type="text/css"/>
+    <script src="js/all.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <div class="wrap header__wrap">
+            <div class="header__blockTop">
+                <a class="header__logoBLock" href="#">
+                    <svg class="header__logo">
+                        <use xlink:href="img/symbol/sprite.svg#logo"></use>
+                    </svg>
+                    <p class="header__name">Dart<br/><span>service manager</span></p>
+                </a>
+                <nav>
+                    <ul class=" menu header__menu">
+                        <li class="menu__element"><a class="menu__link" href="#">Home</a></li>
+                        <li class="menu__element"><a class="menu__link" href="#">Service</a></li>
+                        <li class="menu__element"><a class="menu__link" href="#">Extension</a></li>
+                        <li class="menu__element"><a class="menu__link" href="#">Pricing</a></li>
+                        <li class="menu__element"><a class="menu__link" href="#">Help</a></li>
+                    </ul>
+                </nav>
+                <button class="header__button_sign_up">sign up</button>
+            </div>
+            <div class="header__blockBottom">
+                <div class="header__blockRight">
+                    <h1 class="header__title">lorem Ipsum Dolor sit amet</h1>
+                    <p class="header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                    <button class="header__button_buy_now">Buy now</button>
+                    <button class="header__button_try_for_free">Try for free</button>
+                </div>
+                <div class="header__blockLeft">
+                    <div class="header__video_wrap">
+                        <p class="header__video_text">Watch the video</p>
+                        <div class="header__overlay"></div>
+                        <video class="header__video" poster="img/video-img2.jpg" tabindex="0">
+                            <source class="header__video_source" src="img/video.mp4"
+                                    type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <section class="easyuseful">
+        <div class="wrap easyuseful__wrap">
+
+            <h1 class="easyuseful__title">Easy & Useful</h1>
+
+            <p class="easyuseful__subtitle">Project Management Tool</p>
+
+            <p class="easyuseful__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud</p>
+
+
+            <div class="easyuseful__projects_wrap">
+
+                <div class="easyuseful__projects easyuseful__projects_one">
+
+                    <img class="easyuseful__projectsImg" src="img/book.png" alt="book">
+
+
+                    <p class="easyuseful__projectsTitle">Title Goes Here</p>
+                    <p class="easyuseful__projectsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+                </div>
+
+
+                <div class="easyuseful__projects easyuseful__projects_two">
+
+                    <img class="easyuseful__projectsImg easyuseful__projectsImg_tow" src="img/man.png" alt="man">
+
+
+                    <p class="easyuseful__projectsTitle">Title Goes Here</p>
+                    <p class="easyuseful__projectsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+                </div>
+
+                <div class="easyuseful__projects easyuseful__projects_three">
+
+                    <img class="easyuseful__projectsImg easyuseful__projectsImg_three" src="img/workman.png"
+                         alt="workman">
+
+                    <p class="easyuseful__projectsTitle">Title Goes Here</p>
+                    <p class="easyuseful__projectsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                </div>
+            </div>
+
+
+            <button aria-label="Get started" class="easyuseful__button_get_started">Get started</button>
+
+        </div>
+
+
+    </section>
+
+    <section class="counts">
+        <h1 class="counts__title">Counts</h1>
+        <div class="counts__business">
+            <img class="counts__icon" src="img/business.png" alt="Business">
+            <p  class="counts__text"><span id="counter1"></span>+<br/>Business</p>
+        </div>
+        <div class="counts__business">
+            <img class="counts__icon" src="img/file_download.png" alt="Download">
+            <p  class="counts__text"><span id="counter2"></span>+<br/>Downloads</p>
+        </div>
+        <div class="counts__business">
+            <img class="counts__icon" src="img/person.png" alt="Person">
+            <p  class="counts__text"><span id="counter3"></span>+<br/>Free Installs</p>
+        </div>
+        <div class="counts__business">
+            <img class="counts__icon" src="img/file_download-red.png" alt="Download">
+            <p  class="counts__text"><span id="counter4"></span>+<br/>Pro Users</p>
+        </div>
+
+    </section>
+
+    <section class="services">
+
+        <div class="wrap services__wrap">
+
+            <h1 class="services__title">Services</h1>
+            <p class="description__services">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+
+
+            <div class="services__block">
+                <div class="services__top">
+                    <div class="services__left">
+                        <div class="services__icon">
+                            <img class="services__icon_img" src="img/trending_up.png" alt="icon">
+                        </div>
+                        <p class="services__subtitle">Statistics</p>
+                    </div>
+                    <div class="services__right">
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div class="services__block_img">
+                        <img class="services__img" src="img/services.jpg" alt="img">
+                    </div>
+                    <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br/> <br/> <br/>
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. </p>
+                </div>
+
+            </div>
+
+            <div class="services__block">
+                <div class="services__top">
+                    <div class="services__left">
+                        <div class="services__icon">
+                            <img class="services__icon_img" src="img/mail.png" alt="icon">
+                        </div>
+                        <p class="services__subtitle">Inbox</p>
+                    </div>
+                    <div class="services__right">
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div class="services__block_img">
+                        <img class="services__img" src="img/services.jpg" alt="img">
+                    </div>
+                    <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br/> <br/> <br/>
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. </p>
+                </div>
+
+            </div>
+
+            <div class="services__block">
+                <div class="services__top">
+                    <div class="services__left">
+                        <div class="services__icon">
+                            <img class="services__icon_img" src="img/group.png" alt="icon">
+                        </div>
+                        <p class="services__subtitle">Team</p>
+                    </div>
+                    <div class="services__right">
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div class="services__block_img">
+                        <img class="services__img" src="img/services.jpg" alt="img">
+                    </div>
+                    <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br/> <br/> <br/>
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. </p>
+                </div>
+
+            </div>
+
+            <div class="services__block">
+                <div class="services__top">
+                    <div class="services__left">
+                        <div class="services__icon">
+                            <img class="services__icon_img" src="img/settings.png" alt="icon">
+                        </div>
+                        <p class="services__subtitle">Settings</p>
+                    </div>
+                    <div class="services__right">
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div class="services__block_img">
+                        <img class="services__img" src="img/services.jpg" alt="img">
+                    </div>
+                    <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br/> <br/> <br/>
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. </p>
+                </div>
+
+            </div>
+
+            <div class="services__block">
+                <div class="services__top">
+                    <div class="services__left">
+                        <div class="services__icon">
+                            <img class="services__icon_img" src="img/rss_feed.png" alt="icon" >
+                        </div>
+                        <p class="services__subtitle">Feed</p>
+                    </div>
+                    <div class="services__right">
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div class="services__block_img">
+                        <img class="services__img" src="img/services.jpg" alt="img">
+                    </div>
+                    <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br/> <br/> <br/>
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="customers">
+
+        <div class="wrap customers__wrap">
+
+            <div class="customers__left">
+
+                <h1 class="customers__title">What our customers have to say about us.</h1>
+                <p class="customers__description">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                <button aria-label="Get started" class="customers__btn">Get started</button>
+            </div>
+            <div class="customers__right">
+                <div class="customers__wrap_slider">
+                    <div class="customers__arrow-top"></div>
+                    <div class="customers__area">
+                        <div class="customers__block">
+
+                            <div class="customers__img_area">
+                                <img class="customers__images" src="img/team_img2.jpg" alt="photo">
+                            </div>
+
+                            <div class="customers__coment_area">
+
+                                <p class="customers_coment_name">John Doe</p>
+                                <p class="customers__coment">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna
+                                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </p></div>
+                        </div>
+
+                        <div class="customers__block">
+
+                            <div class="customers__img_area">
+                                <img class="customers__images" src="img/team_img2.jpg" alt="photo">
+                            </div>
+
+                            <div class="customers__coment_area">
+
+                                <p class="customers_coment_name">Khalessi</p>
+                                <p class="customers__coment">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna
+                                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </p></div>
+                        </div>
+
+                        <div class="customers__block">
+
+
+                            <div class="customers__img_area">
+                                <img class="customers__images" src="img/team_img2.jpg" alt="photo">
+                            </div>
+
+                            <div class="customers__coment_area">
+                                <p class="customers_coment_name">John Doe</p>
+                                <p class="customers__coment">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna
+                                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </p></div>
+                        </div>
+
+
+                    </div>
+                    <div class="customers__arrow-bottom"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="team">
+
+        <div class="wrap team__wrap">
+
+            <h1 class="team__title">Our Team</h1>
+            <p class="team__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+
+            <div class="team__people">
+
+                <div class="team__block">
+
+                    <div class="team__blockImg">
+                        <div class="team__shadow"></div>
+                        <img class="team__img" src="img/team_img2.jpg" alt="photo">
+                    </div>
+                    <div class="team__info">
+                        <p class="team__name">Lorem ipsum</p>
+                        <p class="team__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        <p>
+
+                    </div>
+
+                </div>
+                <div class="team__block">
+
+                    <div class="team__blockImg">
+                        <div class="team__shadow"></div>
+                        <img class="team__img" src="img/team_img2.jpg" alt="photo">
+                    </div>
+                    <div class="team__info">
+                        <p class="team__name">Lorem ipsum</p>
+                        <p class="team__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        <p>
+
+                    </div>
+
+                </div>
+                <div class="team__block">
+
+                    <div class="team__blockImg">
+                        <div class="team__shadow"></div>
+                        <img class="team__img" src="img/team_img2.jpg" alt="photo">
+                    </div>
+                    <div class="team__info">
+                        <p class="team__name">Lorem ipsum</p>
+                        <p class="team__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        <p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="team__socialIcons">
+
+                <a class="team__socialIcons_link" href="#"><img src="img/twitter.png"></a>
+                <a class="team__socialIcons_link" href="#"><img src="img/facebook.png"></a>
+                <a class="team__socialIcons_link" href="#"><img src="img/in.png"></a>
+                <a class="team__socialIcons_link" href="#"><img src="img/bol.png"></a>
+                <a class="team__socialIcons_link" href="#"><img src="img/be.png"></a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section class="contact">
+
+        <div class="wrap contact__wrap">
+
+
+            <h1 class="contact__title">Contact Us</h1>
+
+            <p class="contact__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+
+            <form class="contact__form form" action="#">
+                <div class="form__input form__input_first-name">
+                    <label for="form-first-name">First name</label>
+                    <input id="form-first-name" type="text" name="name" placeholder="First name">
+                </div>
+                <div class="form__input form__input_last-name">
+                    <label for="form-last-name">Last name</label>
+                    <input id="form-last-name" type="Email" name="lastname" placeholder="Last name">
+                </div>
+                <div class="form__input form__input_email">
+                    <label for="form-email">Email</label>
+                    <input id="form-email" type="text" name="email" placeholder="Email">
+                </div>
+                <div class="form__input form__input_phone">
+                    <label for="form-phone">Phone</label>
+                    <input id="form-phone" type="text" name="phone" placeholder="Phone">
+                </div>
+                <div class="form__input form__input_message">
+                    <label for="form-message">Message</label>
+                    <textarea name="message" id="form-message" placeholder="Message"></textarea>
+                </div>
+                <div class="form_input form_input_check">
+                    <input type="checkbox" id="subscribe" class="form__check" name="subscribe">
+                    <label for="subscribe" id="form-check">subscribe to the news letter</label>
+                </div>
+                <button aria-label="Send" class="form__button">Send</button>
+            </form>
+
+
+        </div>
+
+
+    </section>
+
+
+    <footer class="footer">
+
+        <div class="wrap footer__wrap">
+
+            <div class="footer__left">
+                <div class="footer__logo">
+                    <a class="footer__logoLink" href="#">
+
+                        <svg class="footer__logoIcon">
+                            <use xlink:href="img/symbol/sprite.svg#logo"></use>
+                        </svg>
+                        <p class="footer__logoText">Dart<br/> <span>service manager</span></p>
+                    </a>
+                </div>
+                <ul class="footer__link">
+                    <li class="footer__linkElement"><a class="footer__linkText" href="#">Privecy Policy</a></li>
+                    <li class="footer__linkElement"><a class="footer__linkText" href="#">About Us</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer__blockRight">
+
+
+                <nav>
+                    <ul class="footer__menu">
+
+                        <li class="footer__menuElement"><a class="footer__menuLink" href="#">Home</a></li>
+                        <li class="footer__menuElement"><a class="footer__menuLink" href="#">Service</a></li>
+                        <li class="footer__menuElement"><a class="footer__menuLink" href="#">Extension</a></li>
+                        <li class="footer__menuElement"><a class="footer__menuLink" href="#">Pricing</a></li>
+                        <li class="footer__menuElement"><a class="footer__menuLink" href="#">Help</a></li>
+
+                    </ul>
+
+
+                </nav>
+
+
+                <ul class="footer__icon">
+
+                    <li class="footer__iconElement"><a class="footer__iconLink" href="#"><img src="img/facebook.png" alt="facebook"></a>
+                    </li>
+                    <li class="footer__iconElement"><a class="footer__iconLink" href="#"><img
+                            src="img/twitter.png" alt="twitter"></a></li>
+                    <li class="footer__iconElement"><a class="footer__iconLink" href="#"><img src="img/in.png" alt="in"></a>
+                    </li>
+                    <li class="footer__iconElement"><a class="footer__iconLink" href="#"><img src="img/bol.png" alt="bol"></a>
+                    </li>
+                    <li class="footer__iconElement"><a class="footer__iconLink" href="#"><img src="img/be.png" alt="be"></a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+        </div>
+
+
+    </footer>
+
+
+</div>
+
+
+</body>
+</html>
+
