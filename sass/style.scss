@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@import "normalize";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "core";
+
+@import "blocks/header";
+@import "blocks/easy&useful";
+@import "blocks/counts";
+@import "blocks/services";
+@import "blocks/contact";
+@import "blocks/customers";
+@import "blocks/team";
+@import "blocks/footer";

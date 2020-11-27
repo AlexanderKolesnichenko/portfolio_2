@@ -1,0 +1,181 @@
+.footer{
+  background-color: $blue;
+
+  nav{
+    width: auto;
+    height: auto;
+margin-top: 105px;
+    margin-bottom: 60px;
+    @media (max-width: 780px) {
+     margin-top: 0;
+    }
+  }
+
+}
+
+.footer__wrap{
+
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 780px) {
+   flex-direction: column;
+  }
+}
+
+
+
+.footer__left{
+
+  @media (max-width: 780px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+.footer__logo{
+
+margin-top: 100px;
+  margin-bottom: 50px;
+width: 180px;
+}
+
+.footer__logoIcon{
+
+  margin-right: 10px;
+  width: 31px;
+  height: 30px;
+  fill: $white;
+}
+
+.footer__logoLink{
+
+display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: $white;
+text-decoration: none;
+  & span{
+
+    font-weight: 700;
+
+  }
+}
+
+.footer__logoImg{
+width: 31px;
+  height: 30px;
+  margin-right: 12px;
+
+}
+
+
+.footer__link{
+display: flex;
+  padding: 0 ;
+  margin: 0 0 100px 0;
+
+}
+.footer__linkElement{
+margin-right: 35px;
+color: $white;
+padding-left: 8px;
+
+
+
+
+  &:first-child{
+padding-left: 0;
+    list-style-type: none;
+
+  }
+
+}
+
+.footer__linkText{
+
+  text-decoration: none;
+  color: $footerTextColorBlue;
+
+  &:hover{
+    color: darken($white, 25%);
+  }
+
+}
+
+
+.footer__blockRight{
+
+  @media (max-width: 780px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+.footer__menu{
+
+  display: flex;
+flex-wrap: wrap;
+  padding: 0;
+}
+
+.footer__menuElement{
+
+  list-style-type: none;
+
+  margin-right: 50px;
+
+  @media (max-width: 487px) {
+
+    margin-right: 15px;
+font-size: 18px;
+  }
+
+
+  &:last-child{
+
+    margin-right: 0;
+
+  }
+}
+
+
+.footer__menuLink{
+
+  text-decoration: none;
+  color: $white;
+  @media (max-width: 487px) {
+
+    font-size: 14px;
+  }
+  &:hover{
+
+    color: darken($white, 25%);
+
+  }
+
+}
+
+
+.footer__icon{
+
+  display: flex;
+  justify-content: flex-end;
+align-items: center;
+  padding: 0;
+  margin-bottom: 100px;
+}
+
+.footer__iconElement{
+  margin-right: 20px;
+  list-style-type: none;
+
+  &:last-child{
+    margin-right: 0;
+
+  }
+
+}
